@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/i-gourish/css-tooltip-lite.git"
+    "url": "https://github.com/gourish-naik/css-tooltip-lite.git"
   },
-  "homepage": "https://github.com/i-gourish/css-tooltip-lite#readme",
+  "homepage": "https://github.com/gourish-naik/css-tooltip-lite#readme",
   "bugs": {
-    "url": "https://github.com/i-gourish/css-tooltip-lite/issues"
+    "url": "https://github.com/gourish-naik/css-tooltip-lite/issues"
   },
   "devDependencies": {
     "sass": "^1.93.3"
