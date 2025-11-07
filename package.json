@@ -1,0 +1,39 @@
+{
+  "name": "css-tooltip-lite",
+  "version": "1.0.0",
+  "description": "Lightweight, customizable CSS-only tooltip system with theme variables and safe handling for missing tooltips.",
+  "keywords": [
+    "css",
+    "pure-css",
+    "tooltip",
+    "lightweight",
+    "customizable",
+    "scss",
+    "no-js",
+    "minimal"
+  ],
+  "license": "MIT",
+  "author": "i-gourish",
+  "main": "dist/tooltip.css",
+  "style": "dist/tooltip.css",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "sass src/tooltip.scss dist/tooltip.css --no-source-map && sass src/tooltip.scss dist/tooltip.min.css --style=compressed",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-gourish/css-tooltip-lite.git"
+  },
+  "homepage": "https://github.com/i-gourish/css-tooltip-lite#readme",
+  "bugs": {
+    "url": "https://github.com/i-gourish/css-tooltip-lite/issues"
+  },
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}
